@@ -150,6 +150,8 @@ var TournamentJournal = ( function()
 
         var elModel = $.GetContextPanel().FindChildInLayoutFile( 'id-tournament-journal-model' );
         var modelPath = ItemInfo.GetModelPathFromJSONOrAPI( id );
+                     
+                                                                                 
         
         var manifest = "resource/ui/econ/ItemModelPanelCharWeaponInspect.res";
         elModel.SetScene( manifest, modelPath, false );

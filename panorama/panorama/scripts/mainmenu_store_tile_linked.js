@@ -53,7 +53,7 @@ var MainMenuStoreTileLinked = ( function()
 		else
 		{
 			elShortNameHeader.text = '';
-			elShortNameHeader.visible = false;
+			                                     
 			elStoreItemName.text = strItemName;
 		}
 

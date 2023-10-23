@@ -144,6 +144,10 @@
 	width: height-percentage( 265% );
 }
 
+.news-panel-streamfeed .IconButton Image.WideLogoBlastTV {
+	width: height-percentage( 307% );
+}
+
 .news-panel-streamfeed .IconButton Image.WideLogoStreamGOTV
 {
 	width: height-percentage( 176% );

@@ -1,7 +1,7 @@
   
                                         
                                                                  
-                                                           
+                                                             
                                  
                                
   
@@ -9,203 +9,203 @@
 
 
   
-                                             
+                                               
   
 var g_ActiveTournamentInfo =
 {
-	eventid: 20,
-	organization: 'iem',
-	location: 'rio2022',
-	stickerid_graffiti: 6085,
-	itemid_pass: 4850,
+	eventid: 21,
+	organization: 'blst',
+	location: 'paris2023',
+	stickerid_graffiti: 6732,
+	itemid_pass: 4883,
 	itemid_coins: [
-		4851, 4852, 4853, 4854
+		4884, 4885, 4886, 4887
 	],
-	itemid_pack: 4855,
-	itemid_charge: 4856,
-	num_global_offerings: 2,
-	active: false,
+	itemid_pack: 4888,
+	itemid_charge: 4889,
+	num_global_offerings: 1,
+	active: true,
 };
 
 
   
-                                                   
+                                                     
   
 var g_ActiveTournamentTeams =
 [
-	       
-	{
-		teamid: 84,
-		team: 'ence',
-		stickerid_graffiti: 6061,
-		team_group: 'legends',
-	},
-	            
-	{
-		teamid: 61,
-		team: 'faze',
-		stickerid_graffiti: 6062,
-		team_group: 'legends',
-	},
 	         
 	{
-		teamid: 95,
-		team: 'hero',
-		stickerid_graffiti: 6063,
+		teamid: 6,
+		team: 'fntc',
+		stickerid_graffiti: 6708,
 		team_group: 'legends',
 	},
 	                
 	{
 		teamid: 12,
 		team: 'navi',
-		stickerid_graffiti: 6064,
+		stickerid_graffiti: 6709,
+		team_group: 'legends',
+	},
+	        
+	{
+		teamid: 85,
+		team: 'furi',
+		stickerid_graffiti: 6710,
+		team_group: 'legends',
+	},
+	           
+	{
+		teamid: 89,
+		team: 'vita',
+		stickerid_graffiti: 6711,
+		team_group: 'legends',
+	},
+	         
+	{
+		teamid: 95,
+		team: 'hero',
+		stickerid_graffiti: 6712,
+		team_group: 'legends',
+	},
+	                  
+	{
+		teamid: 114,
+		team: 'bne',
+		stickerid_graffiti: 6713,
+		team_group: 'legends',
+	},
+	                  
+	{
+		teamid: 118,
+		team: 'itb',
+		stickerid_graffiti: 6714,
+		team_group: 'legends',
+	},
+	       
+	{
+		teamid: 120,
+		team: 'nein',
+		stickerid_graffiti: 6715,
 		team_group: 'legends',
 	},
 	                    
 	{
 		teamid: 1,
 		team: 'nip',
-		stickerid_graffiti: 6065,
-		team_group: 'legends',
-	},
-	                 
-	{
-		teamid: 72,
-		team: 'spr',
-		stickerid_graffiti: 6066,
-		team_group: 'legends',
-	},
-	              
-	{
-		teamid: 48,
-		team: 'liq',
-		stickerid_graffiti: 6067,
-		team_group: 'legends',
-	},
-	              
-	{
-		teamid: 81,
-		team: 'spir',
-		stickerid_graffiti: 6068,
-		team_group: 'legends',
-	},
-	          
-	{
-		teamid: 112,
-		team: 'nine',
-		stickerid_graffiti: 6069,
+		stickerid_graffiti: 6716,
 		team_group: 'challengers',
 	},
-	                  
+	             
 	{
-		teamid: 114,
-		team: 'bne',
-		stickerid_graffiti: 6070,
-		team_group: 'challengers',
-	},
-	      
-	{
-		teamid: 69,
-		team: 'big',
-		stickerid_graffiti: 6071,
-		team_group: 'challengers',
-	},
-	         
-	{
-		teamid: 33,
-		team: 'c9',
-		stickerid_graffiti: 6072,
+		teamid: 59,
+		team: 'g2',
+		stickerid_graffiti: 6717,
 		team_group: 'challengers',
 	},
 	                
 	{
-		teamid: 98,
-		team: 'evl',
-		stickerid_graffiti: 6073,
-		team_group: 'challengers',
-	},
-	       
-	{
-		teamid: 106,
-		team: 'mouz',
-		stickerid_graffiti: 6074,
+		teamid: 90,
+		team: 'forz',
+		stickerid_graffiti: 6718,
 		team_group: 'challengers',
 	},
 	     
 	{
 		teamid: 96,
 		team: 'og',
-		stickerid_graffiti: 6075,
+		stickerid_graffiti: 6719,
 		team_group: 'challengers',
 	},
-	           
+	              
 	{
-		teamid: 89,
-		team: 'vita',
-		stickerid_graffiti: 6076,
+		teamid: 102,
+		team: 'pain',
+		stickerid_graffiti: 6720,
 		team_group: 'challengers',
-	},
-	            
-	{
-		teamid: 116,
-		team: 'zzn',
-		stickerid_graffiti: 6077,
-		team_group: 'contenders',
-	},
-	         
-	{
-		teamid: 6,
-		team: 'fntc',
-		stickerid_graffiti: 6078,
-		team_group: 'contenders',
-	},
-	        
-	{
-		teamid: 85,
-		team: 'furi',
-		stickerid_graffiti: 6079,
-		team_group: 'contenders',
 	},
 	              
 	{
 		teamid: 115,
 		team: 'gl',
-		stickerid_graffiti: 6080,
+		stickerid_graffiti: 6721,
+		team_group: 'challengers',
+	},
+	        
+	{
+		teamid: 117,
+		team: 'apex',
+		stickerid_graffiti: 6722,
+		team_group: 'challengers',
+	},
+	        
+	{
+		teamid: 119,
+		team: 'mont',
+		stickerid_graffiti: 6723,
+		team_group: 'challengers',
+	},
+	              
+	{
+		teamid: 48,
+		team: 'liq',
+		stickerid_graffiti: 6724,
+		team_group: 'contenders',
+	},
+	            
+	{
+		teamid: 61,
+		team: 'faze',
+		stickerid_graffiti: 6725,
+		team_group: 'contenders',
+	},
+	       
+	{
+		teamid: 84,
+		team: 'ence',
+		stickerid_graffiti: 6726,
 		team_group: 'contenders',
 	},
 	                   
 	{
 		teamid: 86,
 		team: 'gray',
-		stickerid_graffiti: 6081,
+		stickerid_graffiti: 6727,
+		team_group: 'contenders',
+	},
+	       
+	{
+		teamid: 106,
+		team: 'mouz',
+		stickerid_graffiti: 6728,
+		team_group: 'contenders',
+	},
+	                    
+	{
+		teamid: 111,
+		team: 'cplx',
+		stickerid_graffiti: 6729,
+		team_group: 'contenders',
+	},
+	        
+	{
+		teamid: 121,
+		team: 'flux',
+		stickerid_graffiti: 6730,
 		team_group: 'contenders',
 	},
 	              
 	{
-		teamid: 108,
-		team: 'ihc',
-		stickerid_graffiti: 6082,
-		team_group: 'contenders',
-	},
-	                   
-	{
-		teamid: 113,
-		team: 'imp',
-		stickerid_graffiti: 6083,
-		team_group: 'contenders',
-	},
-	            
-	{
-		teamid: 109,
-		team: 'out',
-		stickerid_graffiti: 6084,
+		teamid: 122,
+		team: 'mngz',
+		stickerid_graffiti: 6731,
 		team_group: 'contenders',
 	},
 ];
 
 
   
-                                                         
+                                                           
   
 
 var g_ActiveTournamentStoreLayout =
@@ -213,26 +213,26 @@ var g_ActiveTournamentStoreLayout =
 	[
 	g_ActiveTournamentInfo.itemid_pass,
 	g_ActiveTournamentInfo.itemid_pack,
-	'#CSGO_TournamentPass_rio2022_pack_tinyname'
+	'#CSGO_TournamentPass_paris2023_pack_tinyname'
 	],
 	[
-	4857,                                
-	4867,                                  
-	'#CSGO_crate_store_pack_rio2022_legends_groupname'
+	4890,                                
+	4900,                                  
+	'#CSGO_crate_store_pack_paris2023_legends_groupname'
 	],
 	[
-	4858,                                    
-	4868,                                      
-	'#CSGO_crate_store_pack_rio2022_challengers_groupname'
+	4891,                                    
+	4901,                                      
+	'#CSGO_crate_store_pack_paris2023_challengers_groupname'
 	],
 	[
-	4859,                                   
-	4869,                                     
-	'#CSGO_crate_store_pack_rio2022_contenders_groupname'
+	4892,                                   
+	4902,                                     
+	'#CSGO_crate_store_pack_paris2023_contenders_groupname'
 	],
 	[
-	4870,                                    
-	'#CSGO_crate_store_pack_rio2022_signatures_groupname'
+	4903,                                    
+	'#CSGO_crate_store_pack_paris2023_signatures_groupname'
 	],
 ];
 
@@ -244,5 +244,5 @@ var g_ActiveTournamentPasses =
 
 
   
-                                               
+                                                 
   

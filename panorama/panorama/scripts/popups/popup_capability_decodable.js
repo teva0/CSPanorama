@@ -437,10 +437,10 @@ var CapabilityDecodable = ( function()
 	
 		$.GetContextPanel().FindChildInLayoutFile( 'CanDecodableDesc' ).visible = !bAllItems;
 
-		if ( count > 1 )
+		if ( count > 1 || bAllItems )
 		{
 			$.GetContextPanel().FindChildInLayoutFile( 'CanDecodableDescMulti' ).SetDialogVariableInt( 'num_items', count );
-			$.GetContextPanel().FindChildInLayoutFile( 'CanDecodableDescMulti' ).visible = bAllItems;
+			$.GetContextPanel().FindChildInLayoutFile( 'CanDecodableDescMulti' ).visible = ( count > 1 && bAllItems );
 		}
 	}
 

@@ -55,6 +55,8 @@ var MainMenuTournamentPassStatus = ( function()
 
 		                                                                                                
 		var id = InventoryAPI.GetActiveTournamentCoinItemId( g_ActiveTournamentInfo.eventid );
+		                                                                                                 
+		                                         
 
 		if( !id || id === '0' )
 		{

@@ -48,6 +48,9 @@
 						<Button id="NavBarWatchExternalF" class="IconButton ExternalStreamButton TextFullbright visible-if-not-perfectworld" onactivate="EmbeddedStreamAPI.OpenStreamInExternalBrowser( 'XF' );" >              
 							<Label html="true" text="#CSGO_Watch_External_FaceIT"/>
 						</Button>
+						<Button id="NavBarWatchExternalA" class="IconButton ExternalStreamButton visible-if-not-perfectworld" onactivate="EmbeddedStreamAPI.OpenStreamInExternalBrowser( 'XA' );" >                
+							<Image class="WideLogoBlastTV" src = "file://{images}/tournaments/events/tournament_logo_21.svg" texturewidth="-1" textureheight="18"/>
+						</Button>
 						<Button id="NavBarWatchExternalT" class="IconButton ExternalStreamButton visible-if-not-perfectworld" onactivate="EmbeddedStreamAPI.OpenStreamInExternalBrowser( 'XT' );" >              
 							<Image class="WideLogoTwitchTV" src = "file://{images}/browser/twitch.svg" texturewidth="-1" textureheight="18"/>
 						</Button>
