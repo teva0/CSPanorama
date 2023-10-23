@@ -24,7 +24,7 @@ var g_ActiveTournamentInfo =
 	itemid_pack: 4888,
 	itemid_charge: 4889,
 	num_global_offerings: 1,
-	active: true,
+	active: false,
 };
 
 

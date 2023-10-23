@@ -44,18 +44,11 @@ var MainMenuStoreTileLinked = ( function()
 		else
 			strItemName = ItemInfo.GetName( LootListItemID );
 		
-		if ( elItem.Data().oData.usegroupname )
-		{
-			elShortNameHeader.text = strItemName;
-			elShortNameHeader.visible = true;
-			elStoreItemName.text = '';
-		}
-		else
-		{
+
 			elShortNameHeader.text = '';
 			                                     
 			elStoreItemName.text = strItemName;
-		}
+		
 
 		var elSale = elItem.FindChildInLayoutFile( 'StoreItemSalePrice' );
 		var elPrecent = elItem.FindChildInLayoutFile( 'StoreItemPercent' );
