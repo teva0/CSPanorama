@@ -216,11 +216,6 @@ var g_ActiveTournamentStoreLayout =
 	'#CSGO_TournamentPass_rio2022_pack_tinyname'
 	],
 	[
-	4871,
-	4872,
-	'#CSGO_storageunit_rio2022_tinyname'
-	],
-	[
 	4857,                                
 	4867,                                  
 	'#CSGO_crate_store_pack_rio2022_legends_groupname'
