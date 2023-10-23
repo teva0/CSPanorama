@@ -38,9 +38,11 @@
 				<RadioButton onactivate="SettingsMenuShared.ScrollToId('SettingsCrosshair')" group="SettingsGame">
 					<Label text="#settings_crosshair"/>
 				</RadioButton>
-				<RadioButton onactivate="SettingsMenuShared.ScrollToId('SettingsAccountConnSettings')" group="SettingsGame">
-					<Label text="#settings_account_conn_section"/>
-				</RadioButton>
+				    
+				                                                                                                            
+					                                              
+				              
+				   
 			</Panel>
 		</Panel>
 
@@ -779,22 +781,24 @@
 			</Panel>
 
 			                                   
-			<Panel id="SettingsAccountConnSettings" class="SettingsBackground">
-				<Panel class="SettingsSectionTitleContianer">
-					<Label class="SettingsSectionTitleLabel" text="#settings_account_conn_section" />
-				</Panel>
-					<Panel class ="top-bottom-flow full-width">
-					                                
-					<TooltipPanel class="SettingsMenuDropdownContainer" tooltip="#SFUI_Settings_AccountPrivacy_Profile_Info">
-						<Label text="#SFUI_Settings_AccountPrivacy_Profile" class="half-width"/>
-						<CSGOSettingsEnumDropDown id="accountprivacydropdown" class="PopupButton White" convar="cl_accountprivacysetting1">
-							<Label text="#SFUI_Settings_AccountPrivacy_Profile_valDefault" value="1" id ="accountprivacy0"/>
-							<Label text="#SFUI_Settings_AccountPrivacy_Profile_valEnabled" value="3" id ="accountprivacy1"/>
-							<Label text="#SFUI_Settings_AccountPrivacy_Profile_valDisabled" value="2" id ="accountprivacy2"/>
-						</CSGOSettingsEnumDropDown>
-					</TooltipPanel>
-				</Panel>
-			</Panel>
+			     
+			                                                                   
+				                                             
+					                                                                                 
+				        
+					                                           
+					                             
+					                                                                                                         
+						                                                                        
+						                                                                                                                   
+							                                                                                                
+							                                                                                                
+							                                                                                                 
+						                           
+					               
+				        
+			        
+			   
 		</Panel>
 		<Panel class="content-controls-actions-bar">
 			<Button id="SettingsRestoreKbMouse"
