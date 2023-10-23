@@ -1133,7 +1133,7 @@ var MainMenuStore = ( function()
 		                                                                               
 		                                                                               
 		  
-		var tabsorder = [ 'tournament', 'operation', 'coupons',
+		var tabsorder = [ 'operation', 'coupons', 'tournament',
 			'proteams', 'prime', 'newstore',
 			'store', 'keys', 'market' ];
 
